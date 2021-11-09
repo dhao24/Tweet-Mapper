@@ -3,8 +3,8 @@
     "title": "TweetMap_ISA"
   },
   "twitter": {
-    "consumer_key": "YyxhsiUZd7v5TDvj6NcpWITsA",
-    "consumer_secret": "hepA1pijwBMJTZsINL1CFkTJrWR9UKs9q6RynGWRgNFdBTSP0C",
-    "bearer_token": "AAAAAAAAAAAAAAAAAAAAAAjbVQEAAAAAFRUpe4MQQYp8XEa%2FkSbz2GV8KHo%3DY9ptKcrZqe6Df8tvJKESjg4U2wG6iOgoXoTgBxztkog12HkpyC"
+    "consumer_key": "",
+    "consumer_secret": "",
+    "bearer_token": ""
   }
 }
