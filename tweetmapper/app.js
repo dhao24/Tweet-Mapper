@@ -5,6 +5,8 @@ var logger       = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
 
+var port=3000;
+
 var index = require('./routes/index');
 
 var app = express();
@@ -54,5 +56,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
 module.exports = app;
