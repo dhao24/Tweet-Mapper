@@ -33,3 +33,9 @@ bower_components/
 .floobit
 .floo
 .flooignore
+
+#API key
+tweetmapper/settings*.json
+
+#System files
+.DS_Store
