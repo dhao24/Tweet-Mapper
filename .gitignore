@@ -39,3 +39,6 @@ tweetmapper/settings*.json
 
 #System files
 .DS_Store
+
+#Locked files
+*-lock.*
