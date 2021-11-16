@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start-lock": "DEBUG=tweetmapper:* nodemon ./bin/www",
-    "start": "node ./bin/www",
+    "start": "node bin/www",
     "test": "./node_modules/.bin/mocha --reporter nyan tests/api.js"
   },
   "dependencies": {
