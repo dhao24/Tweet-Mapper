@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=tweetmapper:* nodemon ./bin/www",
+    "start-lock": "DEBUG=tweetmapper:* nodemon ./bin/www",
+    "start": "node ./bin/www",
     "test": "./node_modules/.bin/mocha --reporter nyan tests/api.js"
   },
   "dependencies": {
